@@ -26,9 +26,9 @@ function DropDown({ data }) {
         {selectItem ? selectItem : "select item"}
         <span>
           {toggle ? (
-            <RiArrowDropDownLine size={20} />
-          ) : (
             <RiArrowDropUpLine size={20} />
+          ) : (
+            <RiArrowDropDownLine size={20} />
           )}
         </span>
       </button>
